@@ -1,0 +1,55 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "ws": "bin/workspace/ws.sh",
+    "bews": "bin/workspace/bews.sh",
+    "fews": "bin/workspace/fews.sh",
+    "generate": "bin/generate.sh"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.5",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@typescript-eslint/parser": "^5.10.0",
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "framer-motion": "^6.2.8",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.7",
+    "next": "^12.1.0",
+    "next-auth": "^4.1.2",
+    "plaiceholder": "^2.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-intersection-observer": "^8.33.1",
+    "sass": "^1.49.0",
+    "sharp": "^0.29.3",
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^5.3.3",
+    "styled-icons": "^10.45.0",
+    "swr": "^1.1.2",
+    "three": "^0.138.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint": "^8.7.0",
+    "eslint-config-next": "12.0.8"
+  },
+  "name": "ug",
+  "main": "next.config.js",
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
