@@ -4,7 +4,6 @@ import {
   Heading,
   Image,
   Link,
-  SimpleGrid,
   useColorModeValue,
   Button,
   List,
@@ -17,7 +16,6 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "@/components/layouts/article";
 import { IoLogoFacebook, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5';
-import { GridItem } from '../components/grid-item'
 
 const Page = () => {
   return (
@@ -60,7 +58,7 @@ const Page = () => {
       </Box>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">Work</Heading>
-        <Paragraph>Uguumur is a front-end developer for a company named Solid Frameworks LLC based in Ulaanbaatar, Mongolia. When he is free, he watches K-Drama, Anime and plays TFT.</Paragraph>
+        <Paragraph>Uguumur is a front-end developer for a company named Solid Frameworks LLC based in Ulaanbaatar, Mongolia.</Paragraph>
       </Section>
       <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -78,40 +76,38 @@ const Page = () => {
           <BioYear>Born-Year</BioYear>
           Born at a very young age.
         </BioSection>
-        <BioSection>
-          If I could sum up my life in one line I would die of embarrassment.
-        </BioSection>
         {/* <BioSection>
           <BioYear>2001</BioYear>
           Born in Ulaanbaatar (Улаанбаатар), Mongolia.
-        </BioSection>
-        <BioSection>
+        </BioSection> */}
+        {/* <BioSection>
           <BioYear>2010</BioYear>
-         
-        </BioSection>
+        </BioSection> */}
         <BioSection>
           <BioYear>2019</BioYear>
-          Graduated New Mongol High School
+          Graduated New Mongol High School.
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
           Started his career as a Developer and working as a Solid Frameworks LLC front-end developer.
-        </BioSection> */}
+        </BioSection>
+        <BioSection>
+        <BioYear>My Life in a nutshell</BioYear>
+          If I could sum up my life in one line I would die of embarrassment.
+        </BioSection>
       </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Art,{' '}
+          <Link href="https://www.youtube.com/channel/UC0BletW9phE4xHFM44q4qKA" target="_blank">
+            Music
+            </Link>
+          , Playing Morin Khuur{' '}
+          
+          , TFT, Coding, Sleeping
         </Paragraph>
       </Section>
       <Section delay={0.3}>

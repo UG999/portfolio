@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
-import JuiceWRLD from '../juice-wrld'
+import Charizard from '../charizard'
 
 
 const Main = ({ children, router }) => {
@@ -13,7 +13,7 @@ const Main = ({ children, router }) => {
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
-      <JuiceWRLD/>
+      <Charizard/>
         {children}
 
       </Container>
