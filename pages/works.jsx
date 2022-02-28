@@ -5,6 +5,7 @@ import { WorkGridItem } from "../components/grid-item";
 import thumbKallero from '../public/thumbKallero.png'
 import thumbAmno from '../public/thumbAmno.png'
 import Layout from "@/components/layouts/article";
+import Link from "next/link";
 const Works = () => (
   <Layout>
   <Container>
@@ -13,11 +14,15 @@ const Works = () => (
     </Heading>
 
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
+    <Link href="https://kallero.vercel.app" target="_blank">
       <Section>
         <WorkGridItem id="kallero" title="Kallero" thumbnail={thumbKallero}>
+        
           Clothing Brand Website.
+        
         </WorkGridItem>
       </Section>
+      </Link>
       <Section>
         <WorkGridItem
           id="amnoconstruction"

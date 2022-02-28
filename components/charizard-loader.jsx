@@ -15,7 +15,7 @@ export const CharizardSpinner = () => (
 export const CharizardContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
-    className="juice-wrld"
+    className="charizard"
     m="auto"
     mt={['-20px', '-60px', '-120px']}
     mb={['-40px', '-140px', '-200px']}

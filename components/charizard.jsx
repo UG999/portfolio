@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import {Box} from '@chakra-ui/react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
@@ -51,7 +50,7 @@ const Charizard = () => {
       container.appendChild(renderer.domElement)
       setRenderer(renderer)
 
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.005 + 30
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -72,7 +71,7 @@ const Charizard = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/charizard.glb', {
+      loadGLTFModel(scene, '/totoro.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
@@ -105,7 +104,6 @@ const Charizard = () => {
       }
 
       return () => {
-        console.log('unmount')
         cancelAnimationFrame(req)
         renderer.dispose()
       }
@@ -120,11 +118,7 @@ const Charizard = () => {
   }, [renderer, handleWindowResize])
 
   return (
-    <Box ref={refContainer}>
-      <CharizardContainer ref={refContainer}>
-        {loading && <CharizardSpinner />}
-      </CharizardContainer>
-    </Box>
+      <CharizardContainer ref={refContainer}>{loading && <CharizardSpinner />}</CharizardContainer>
   )
 }
 

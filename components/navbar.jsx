@@ -14,7 +14,6 @@ import {
   IconButton,
   useColorModeValue,
 } from "@chakra-ui/react";
-// import { IoLogoGithub } from 'react-icons/io5'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from "./theme-toggle-button";
 
@@ -70,18 +69,6 @@ const Navbar = (props) => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          {/* <LinkItem
-            target="_blank"
-            href="https://github.com/UG999"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoGithub />
-            Source
-          </LinkItem> */}
           </Stack>
 
           <Box flex={1} align="right">
