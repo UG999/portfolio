@@ -138,7 +138,7 @@ const Page = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/uguumur0828" target="_blank">
+            <Link href="https://instagram.com/uguumur999" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
