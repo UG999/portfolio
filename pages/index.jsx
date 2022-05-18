@@ -108,6 +108,7 @@ const Page = () => {
           , Playing Morin Khuur{' '}
           
           , TFT, Coding, Sleeping
+          
         </Paragraph>
       </Section>
       <Section delay={0.3}>
