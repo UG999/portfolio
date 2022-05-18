@@ -6,11 +6,7 @@ import thumbKallero from '../public/thumbKallero.png'
 import thumbAmno from '../public/thumbAmno.png'
 import Layout from "@/components/layouts/article";
 import Link from "next/link";
-import React, { useEffect } from "react";
 const Works = () => (
-  
-  
-
   <Layout>
   <Container>
     <Heading as="h3" fontSize={20} mb={4}>
@@ -18,16 +14,15 @@ const Works = () => (
     </Heading>
 
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
-    
+    <Link href="https://kallero.vercel.app" target="_blank">
       <Section>
-      
         <WorkGridItem id="kallero" title="Kallero" thumbnail={thumbKallero}>
-        <a href="https://kallero.vercel.app" target="_blank">
+        
           Clothing Brand Website.
-          </a>
+        
         </WorkGridItem>
       </Section>
-      
+      </Link>
       <Section>
         <WorkGridItem
           id="amnoconstruction"
