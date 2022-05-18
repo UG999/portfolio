@@ -51,7 +51,7 @@ const Page = () => {
             maxHeight="100px"
             display="inline-block"
             borderRadius="full"
-            src="/profile.jpg"
+            src="/profile.jpeg"
             alt="Profile image"
           ></Image>
         </Box>
@@ -74,7 +74,7 @@ const Page = () => {
         </Heading>
         <BioSection>
           <BioYear>Born-Year</BioYear>
-          Born at a very young age.
+          Born at a very young age. :D
         </BioSection>
         {/* <BioSection>
           <BioYear>2001</BioYear>
@@ -144,7 +144,7 @@ const Page = () => {
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @uguumur0828
+                @uguumur999
               </Button>
             </Link>
           </ListItem>

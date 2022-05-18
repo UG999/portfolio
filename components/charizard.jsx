@@ -50,7 +50,7 @@ const Charizard = () => {
       container.appendChild(renderer.domElement)
       setRenderer(renderer)
 
-      const scale = scH * 0.005 + 30
+      const scale = scH * 0.005 + 30 
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
